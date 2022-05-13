@@ -1,0 +1,7 @@
+{
+    "sketch": "src/src.ino",
+    "configuration": "FlashFreq=80,UploadSpeed=921600,DebugLevel=none,PartitionScheme=default",
+    "board": "esp32:esp32:featheresp32",
+    "port": "/dev/tty.SLAB_USBtoUART",
+    "output": "./build"
+}

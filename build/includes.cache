@@ -1,0 +1,67 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/mlorenz/Library/Arduino15/packages/esp32/hardware/esp32/2.0.2/cores/esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/mlorenz/Library/Arduino15/packages/esp32/hardware/esp32/2.0.2/variants/feather_esp32"
+  },
+  {
+    "Sourcefile": "/Users/mlorenz/Personal/pov-mill/build/sketch/src.ino.cpp",
+    "Include": "Adafruit_DotStar.h",
+    "Includepath": "/Users/mlorenz/Documents/Arduino/libraries/Adafruit_DotStar"
+  },
+  {
+    "Sourcefile": "/Users/mlorenz/Personal/pov-mill/build/sketch/src.ino.cpp",
+    "Include": "Adafruit_SPIDevice.h",
+    "Includepath": "/Users/mlorenz/Documents/Arduino/libraries/Adafruit_BusIO"
+  },
+  {
+    "Sourcefile": "/Users/mlorenz/Personal/pov-mill/build/sketch/src.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "/Users/mlorenz/Library/Arduino15/packages/esp32/hardware/esp32/2.0.2/libraries/SPI/src"
+  },
+  {
+    "Sourcefile": "/Users/mlorenz/Personal/pov-mill/build/sketch/src.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/mlorenz/Documents/Arduino/libraries/Adafruit_DotStar/Adafruit_DotStar.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/mlorenz/Documents/Arduino/libraries/Adafruit_BusIO/Adafruit_BusIO_Register.cpp",
+    "Include": "Wire.h",
+    "Includepath": "/Users/mlorenz/Library/Arduino15/packages/esp32/hardware/esp32/2.0.2/libraries/Wire/src"
+  },
+  {
+    "Sourcefile": "/Users/mlorenz/Documents/Arduino/libraries/Adafruit_BusIO/Adafruit_BusIO_Register.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/mlorenz/Documents/Arduino/libraries/Adafruit_BusIO/Adafruit_I2CDevice.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/mlorenz/Documents/Arduino/libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/mlorenz/Library/Arduino15/packages/esp32/hardware/esp32/2.0.2/libraries/SPI/src/SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/mlorenz/Library/Arduino15/packages/esp32/hardware/esp32/2.0.2/libraries/Wire/src/Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
