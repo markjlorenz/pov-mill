@@ -33,3 +33,37 @@ Yellow - Ci Clock -> SCK
             | O               O |
             +-------------------+
 ```
+
+## Using it for the 3D printer lights:
+
+```
+# setup the interfaces
+sudo raspi-config
+[3. Interface Options]
+[P4 SPI] -> enable
+
+# install dependencies
+sudo apt-get install python3-dev python3-rpi.gpio
+sudo pip3 install adafruit-circuitpython-dotstar
+```
+
+```
+import board
+import adafruit_dotstar as dotstar
+
+NUM_PIXELS = int(144 / 2)
+
+dots = dotstar.DotStar(
+    board.SCK
+    ,board.MOSI
+    ,NUM_PIXELS
+    ,brightness=0.2
+)
+
+dots.fill((255, 255, 0))
+```
+
+```
+ssh pi@3dprinter.local
+python3 lights.py
+```
